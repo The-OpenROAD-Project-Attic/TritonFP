@@ -7,6 +7,3 @@
 [submodule "module/RePlAce"]
 	path = module/RePlAce
 	url = https://github.com/The-OpenROAD-Project/RePlAce.git
-[submodule "module/pdn"]
-	path = module/pdn
-	url = https://github.com/abk-openroad/pdn
