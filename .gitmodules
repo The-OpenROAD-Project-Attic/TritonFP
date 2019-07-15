@@ -1,6 +1,6 @@
 [submodule "module/TritonMacroPlace"]
 	path = module/TritonMacroPlace
-	url = https://github.com/abk-openroad/TritonMacroPlace.git
+	url = https://github.com/The-OpenROAD-Project/TritonMacroPlace.git
 [submodule "module/Resizer"]
 	path = module/Resizer
 	url = https://github.com/The-OpenROAD-Project/Resizer.git
