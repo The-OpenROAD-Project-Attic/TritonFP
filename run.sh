@@ -42,6 +42,7 @@ set lib="test.lib"
 -globalConfig IP_global.cfg \
 -depth 3 \
 -westFix \
+-randomPlace
 
 #PDN
 ./pdn/src/scripts/apply_pdn PDN.cfg
