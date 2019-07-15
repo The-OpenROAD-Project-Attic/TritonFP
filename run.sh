@@ -44,7 +44,7 @@ set lib="test.lib"
 -westFix \
 
 #PDN
-tclsh scripts/execute.tcl
+./pdn/src/scripts/apply_pdn PDN.cfg
 
 #endcap / welltap insertion
 ./bin/tapcell \
