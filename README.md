@@ -3,13 +3,13 @@ All tools in Task 8 (Floorplan) are merged in TritonFP.
 
 Tool List
 
-- Resizer (verilog2def) (https://github.com/The-OpenROAD-Project/Resizer/blob/master/README.md)
-- ioPlacer (https://github.com/The-OpenROAD-Project/ioPlacer/blob/master/README.md)
-- TritonMacroPlace (https://github.com/The-OpenROAD-Project/TritonMacroPlace/blob/master/README.md)
-- PDN (https://github.com/The-OpenROAD-Project/pdn/blob/723effcb243e45a710a663e1ebe9628c0df7ac75/doc/README.md)
-- Endcap/Welltap insertion (https://github.com/The-OpenROAD-Project/tapcell/blob/master/README.md)
+- Resizer (verilog2def) (https://github.com/The-OpenROAD-Project/Resizer)
+- ioPlacer (https://github.com/The-OpenROAD-Project/ioPlacer)
+- TritonMacroPlace (https://github.com/The-OpenROAD-Project/TritonMacroPlace)
+- PDN (https://github.com/The-OpenROAD-Project/pdn)
+- Endcap/Welltap insertion (https://github.com/The-OpenROAD-Project/tapcell)
 
-## How to Build OpenROAD tools
+### How to Build OpenROAD tools
 https://github.com/The-OpenROAD-Project/alpha-release/tree/master/build#creating-builds
 
 run.sh is an example shell script to connect all the tools. The users should compile all the tools and put
