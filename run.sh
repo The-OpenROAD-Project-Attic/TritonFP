@@ -30,19 +30,37 @@ set lib="test.lib"
 -v 6 \
 -w 1
 
+#RePlAce
+./bin/RePlAce \
+-bmflag etc \
+-lef $lef \
+-def ioplaced.def \
+-verilog $verilog \
+-lib $lib \
+-sdc $sdc \
+-output . \
+-t 1 \
+-timing \
+-resPerMicron 1.0 \
+-capPerMicron 0.1e-15 \
+-skipIP \
+-plot \
+-experi output \
+-den 0.7 \
+-onlyGP
+
 #MacroPlacer
 ./bin/fplan \
 -verilog $verilog \
 -lib $lib
 -lef $lef \
--def ioplaced.def \
+-def etc/ioplaced/output/ioplaced_gp.def \
 -design $design \
 -sdc $sdc \
 -output $design \
 -globalConfig IP_global.cfg \
 -depth 3 \
--westFix \
--randomPlace
+-westFix 
 
 #PDN
 ./pdn/src/scripts/apply_pdn PDN.cfg
