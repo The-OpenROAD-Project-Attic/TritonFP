@@ -15,7 +15,7 @@ https://github.com/The-OpenROAD-Project/alpha-release/tree/master/build#creating
 
 run.sh is an example shell script to connect all the tools. The users should compile all the tools and put
 the binaries into "bin" directory. (For PDN, use pdn directory.) Also, technology information (lef, lib, tap cell name, endcap cell
-name and site name) and design
+name, site name, unit R and C (per micron)) and design
 information (verilog, sdc and design name) should be defined properly.
 
 Please refer to README.md for each repository.
